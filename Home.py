@@ -1,12 +1,23 @@
 import streamlit as st
-from langchain.prompts import PromptTemplate
 
-st.title("Hello World")
+st.set_page_config(
+    page_title="FullstackGPT Home",
+    page_icon="🤖",
+)
 
-st.subheader("Welcome to Streamlit!")
-
-st.write([1, 2, 3, 4])
-st.write(PromptTemplate) # class 출력
-
-p = PromptTemplate.from_template("xxxx")
-st.write(p)
+st.markdown(
+    """
+# Hello!
+            
+Welcome to my FullstackGPT Portfolio!
+            
+Here are the apps I made:
+            
+- [ ] [DocumentGPT](/DocumentGPT)
+- [ ] [PrivateGPT](/PrivateGPT)
+- [ ] [QuizGPT](/QuizGPT)
+- [ ] [SiteGPT](/SiteGPT)
+- [ ] [MeetingGPT](/MeetingGPT)
+- [ ] [InvestorGPT](/InvestorGPT)
+"""
+)
