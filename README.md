@@ -6,4 +6,4 @@
 
 # 구현하는 ChatGPT 플러그인 (1종) : ChefGPT
 
-# GPT-4, Langchain 을 활용하여 실전형 AI 웹 서비스를 무려 7가지 구현합니다!
+# GPT-4, Langchain 을 활용한 AI 웹 서비스 7가지 구현
