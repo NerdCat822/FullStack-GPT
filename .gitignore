@@ -2,3 +2,6 @@
 files/
 .cache/
 .streamlit/
+.DS_Store
+Lecture-notebook.ipynb
+falcon.bin
